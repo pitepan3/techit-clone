@@ -1,0 +1,24 @@
+*AOA11y 유투브 채널 참고*
+
+
+Aria-hidden="ture or hidden"  =>  시각장애 보조기기 프로그램에서 
+                                  읽거나 읽지않도록 하는 코드
+
+
+메뉴정의 role="menu"
+<div class-"user_meny" role="menu"...>
+
+경고 대화상자 정의 role="alertdialog"
+<div class="auth_error" role="alertdialog"...>
+
+버튼 정의 role="button" => div는 button이 아니지만 button역할을 지정한다
+<div class="btn_01" role="button"...>
+
+
+속성Properties
+필수 항목 속성 aria-required
+<input typq="checkbox" aria-required="true or false">
+
+상태 States
+선택된 상태의 토글버튼 aria-pressed="trye"
+<button aria-pressed="trye or false">

@@ -1,0 +1,17 @@
+{
+  "name": "vite-manual",
+  "version": "1.0.0",
+  "description": "vite 툴체인을 사용한 개발 환경 메뉴얼 구성",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "hoon",
+  "license": "ISC",
+  "dependencies": {
+    "kind-tiger": "^1.0.1",
+    "vite": "^5.1.3"
+  }
+}
